@@ -120,6 +120,11 @@ curl "http://127.0.0.1:8000/ben10?color=false&width=150"
   * Ensure your terminal supports ANSI clear (`[2J[H`).
   * Try Windows Terminal or PowerShell if using Windows.
   * Reduce `width` so frames fit your terminal height.
+  
+* **Slow frame processing** — It might be slightly slower on a public server:
+  
+  * Depending on the server's capabilities.
+  * Or the time it takes for a data packet to travel from server to your device (ms).
 
 ---
 ## License
