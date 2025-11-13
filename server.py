@@ -75,7 +75,8 @@ class ASCIIVideoServer:
     def run(self, host="0.0.0.0", port=8000, debug=False):
         self.app.run(host=host, port=port, debug=debug)
 
+server = ASCIIVideoServer()
+app = server.app
 
 if __name__ == "__main__":
-    server = ASCIIVideoServer()
     server.run()
